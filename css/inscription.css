@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(245, 245, 245);
+}
+.title{
+    margin-top: 150px;
+}
+.form{
+    margin-top: 150px;
+    text-align: center;
+    background-color: white;
+    padding: 8px 20px 23px 20px;
+    border-radius: 10px;
+}
+.form *{
+    margin-top: 14px;
+}
+.form .btn-primary{
+    margin-bottom: 10px;
+}
+.logo{
+    background-image: url("../images/logo.png");
+    background-size: 100% 100%;
+    height: 140px;
+}
+.description{
+    margin-top: -15px;
+    font-size: 28px;
+    line-height: 32px;
+}
+::placeholder {
+    font-size: 17px;
+  }
+  
+
