@@ -15,9 +15,11 @@
                </div>
             </div>
             <div class="col-lg-3 offset-lg-1 form">
-                <input type="text" placeholder="Adresse e-mail ou numero de tele" class="form-control form-control-lg">
-                <input type="password" placeholder="Mot de passe" class="form-control form-control-lg">
-                <button class="btn btn-primary btn-block btn-lg">Se connecter</button>
+                <input type="text" placeholder="Adresse e-mail ou numero de tele" id="login" class="form-control form-control-lg">
+                <p id="erreurlog" >champs vide*</p>
+                <input type="password" placeholder="Mot de passe" id="password" class="form-control form-control-lg">
+                <p id="erreurpass">champs vide*</p>
+                <button class="btn btn-primary btn-block btn-lg" onclick="valider()">Se connecter</button>
                 <a href="#">Mot de passe oublié</a>
                 <hr>
                 <button class="btn btn-success btn-lg">Créer nouveau compte</button>
